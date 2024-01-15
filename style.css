@@ -17,7 +17,7 @@ p{
 }
 
 section{
-    max-width: 1170px;
+    max-width: 1200px;
     margin: auto;
     margin-top: 50px;
 }
@@ -35,7 +35,7 @@ section{
 .logo {
     display: inline-flex;
     align-items: center;
-    margin-left: 90px;
+    margin-left: 240px;
 }
 
 .logo h2{
@@ -60,14 +60,14 @@ font-weight: 800;
 .menu-bar li a {
     text-decoration: none;
     color: var(--Dark-02, #424247);
-    text-align: center;
+    text-align: right;
     font-size: 18px;
     font-weight: 400;
 }
 
 .banner{
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Group\ 13.png");
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/Group 13.png");
     height: 500px;
     background-repeat: no-repeat;
     width: 100%;
