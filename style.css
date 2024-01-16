@@ -192,3 +192,78 @@ p.popular-p-2 {
     width: 174px;
 }
 /* Populer area end*/
+
+/* destination start */
+
+.sec-image-container{
+    display: grid;
+    gap: 24px;
+    
+}
+ .first-row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+ }
+
+.second-row{
+    display: grid;
+    grid-template-columns: 12;
+    column-gap: 24px;
+}
+
+.srilanka{
+    grid-row: 3/12;
+}
+
+.nort-america{
+    grid-row:7/12;
+}
+
+.kashmir{
+    grid-row:2/12;
+}
+.third-row{
+    display: grid;
+    grid-template-columns: 12;
+    column-gap: 24px;
+}
+.bangladesh{
+grid-row: 4/12;
+}
+.bandarban{
+    grid-row: 8/12;
+}
+.img-container {
+    position: relative;
+
+}
+.img-container img{
+    width: 100%;
+    height: auto;
+   
+
+}
+
+
+.img-container p{
+    position: absolute;
+    color: white;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) ;
+    -webkit-transform: translateX(-50%) ;
+    -moz-transform: translateX(-50%) ;
+    -ms-transform: translateX(-50%) ;
+    -o-transform: translateX(-50%) ;
+}
+
+.sec-image-container p{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+/* destination end*/
