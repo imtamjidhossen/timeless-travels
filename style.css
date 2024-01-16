@@ -2,24 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-}
-
-body {
     font-family: 'Mulish', sans-serif;
 }
+
+
 
 h1, h2, h3, h4, h5, h6{
     color: #131318;
 }
 
 p{
-    color: #131318B2;
+    color: #131318B2
 }
 
 section{
     max-width: 1200px;
     margin: auto;
     margin-top: 50px;
+}
+
+.btn-primary{
+    color: white;
+    background:#FF5400;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    padding: 5px;
+    font-size:20px;
+    font-weight: 800;
+    text-align: center;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 /* header area start*/
@@ -92,4 +107,88 @@ font-weight: 800;
     width: 676px;
 
 }
+
+.banner form {
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    border-radius: 10px;
+    display: inline-flex;
+    gap: 24px;
+}
+
+.banner form input {
+    width: 170px;
+    height: 52px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.banner form select {
+    width: 170px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #13131880;
+}
+.find-now-btn {
+    position: relative;
+}
+
+.find-now-btn i {
+    position: absolute;
+    left: 22px;
+    top: 18px;
+    font-size: 18px;
+    color: white;
+    height: 24px;
+    width: 24px;
+}
+
+.find-now-btn input {
+    color: white;
+    background: #FF5400;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+}
 /* header area end*/
+/* Populer area start*/
+
+section.our-popular-tours {
+    display: flex;
+}
+
+.tours-disc h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+p.popular-p-1 {
+    margin-bottom: 20px;
+    width: 577px;
+}
+
+.tours-disc li {
+    width: 525px;
+    margin-bottom: 20px;
+    color: #131318B2;
+    font-size: 16px;
+}
+
+.tours-disc {
+    width: 660px;
+}
+
+p.popular-p-2 {
+    width: 530px;
+    margin-bottom: 20px;
+}
+
+.tours-disc button {
+    width: 174px;
+}
+/* Populer area end*/
