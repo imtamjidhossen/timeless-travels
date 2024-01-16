@@ -46,11 +46,12 @@ section{
     align-items: center;
     margin-top: 30px;
     width: 1248px;
+    margin-inline: auto;
 }
 .logo {
     display: inline-flex;
     align-items: center;
-    margin-left: 240px;
+    
 }
 
 .logo h2{
@@ -78,6 +79,11 @@ font-weight: 800;
     text-align: right;
     font-size: 18px;
     font-weight: 400;
+}
+.menu-bar li a:hover {
+    color: #FF5400;
+    transition:.5s;
+
 }
 
 .banner{
@@ -157,8 +163,9 @@ font-weight: 800;
 /* header area end*/
 /* Populer area start*/
 
-section.our-popular-tours {
+.our-popular-tours {
     display: flex;
+    margin-top: 100px;
 }
 
 .tours-disc h2 {
@@ -194,7 +201,23 @@ p.popular-p-2 {
 /* Populer area end*/
 
 /* destination start */
-
+.destination-heading{
+    padding: 50px;
+}
+.destination-heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.destination-heading p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    margin: auto;
+}
 .sec-image-container{
     display: grid;
     gap: 24px;
@@ -267,3 +290,268 @@ grid-row: 4/12;
 
 
 /* destination end*/
+
+/* why choose us start */
+
+.why-choose{
+    margin-top:100px
+}
+.why-sec-heading{
+    margin-bottom: 30px;
+}
+.why-sec-heading h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-sec-heading p{
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 643px;
+    margin: auto;
+}
+
+.single-box {
+    width: 568px;
+    height: 279px;
+    border-radius: 10px;
+    background-color: #FBB56333;
+    padding: 11px;
+    
+}
+
+.single-box img {
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.single-box h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+.single-box p {
+    font-weight: 400;
+    line-height: 26px;
+    width: 486px;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+.why-points {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+
+}
+.single-box2 {
+    background-color: #29CEF633;
+}
+
+.single-box3 {
+    background-color: #E9444433;
+}
+
+
+/* why choose us end */
+/* simple perfect start */
+.simple-perfect-container {
+    display: flex;
+    gap: 30px;
+}
+.simple-disc {
+    width: 550px;
+    height: 424px;
+}
+.simple-disc h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; 
+    width: 448px;
+    margin-bottom: 20px;
+}
+.simple-disc p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 532px;
+}
+.simple-disc li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; 
+    width: 518px;
+}
+.simple-disc button{
+    width: 174px;
+    margin-top: 30px;
+}
+video {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* simple perfect end */
+
+/* newslatter start */
+.newslater-form {
+    width: 40%;
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+    padding: 50px;
+    height: 424px;
+}
+
+.newslatter-img-container {
+    width: 60%;
+    position: relative;
+}
+
+section.newslatter {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 48px;
+    margin-bottom: 100px;
+}
+
+.newslater-form input {
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background: rgba(19, 19, 24, 0.05);
+    width: 393px;
+    height: 52px;
+}
+
+.newslater-form button {
+    height: 52px;
+    width: 393px;
+}
+
+.newslater-form p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.newslater-form h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.image-text {
+    background: #FF5400;
+    height: 128px;
+    width: 324px;
+    border-radius: 10px;
+    text-align: center;
+    transform: rotate(-19deg);
+    padding: 30px;
+    position: absolute;
+    top: 241px;
+    left: 331px;
+}
+.newslatter-img {
+    position: relative;
+}
+.image-text p {
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+.image-text h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+
+
+
+
+
+.footer{
+    background: #1313180D;
+
+}
+.footer-main{
+    max-width: 1320px;
+    margin:auto;
+    padding-block:120px;
+    text-align: center;
+}
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo h2 {
+    display: inline;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.footer-logo {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.footer-top{
+
+}
+
+.socila-ul{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style:none;
+
+}
+.socila-ul img{
+    height: 30px;
+    width: 30px;
+}
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo h2 {
+    display: inline;
+}
+
+.footer-top p {
+    width: 769px;
+    margin: auto;
+    padding: 20px;
+}
+
+.social {
+    padding: 20px;
+}
+
+.copyright {
+    padding: 20px;
+    margin-top: 40px;
+}
+/* newslatter end */
