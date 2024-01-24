@@ -65,6 +65,11 @@ font-weight: 800;
     color: #FF5400;
     margin-left: 5px;
 } 
+
+.bars i{
+    display: none;
+}
+
 .menu-bar li {
     list-style: none;
     display: inline-flex;
@@ -231,7 +236,6 @@ p.popular-p-2 {
 
 .second-row{
     display: grid;
-    grid-template-columns: 12;
     column-gap: 24px;
 }
 
@@ -248,7 +252,7 @@ p.popular-p-2 {
 }
 .third-row{
     display: grid;
-    grid-template-columns: 12;
+ 
     column-gap: 24px;
 }
 .bangladesh{
@@ -361,6 +365,7 @@ grid-row: 4/12;
 .simple-perfect-container {
     display: flex;
     gap: 30px;
+    margin-top: 50px;
 }
 .simple-disc {
     width: 550px;
@@ -409,6 +414,11 @@ video {
 /* simple perfect end */
 
 /* newslatter start */
+
+.newslatter{
+    display: flex;
+}
+
 .newslater-form {
     width: 40%;
     border: 1px solid #FF5400;
@@ -418,7 +428,7 @@ video {
 }
 
 .newslatter-img-container {
-    width: 60%;
+
     position: relative;
 }
 
